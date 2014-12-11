@@ -18,7 +18,7 @@ module.exports = function(grunt) {
       }
     },
    watch: {
-      files: ['server.js', 'Gruntfile.js', 'index.ejs', 'socketController.js'],
+      files: ['server.js', 'Gruntfile.js', 'index.ejs', '../src/socketController.js'],
       tasks: ['jshint']
     }
   });
