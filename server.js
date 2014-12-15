@@ -12,7 +12,7 @@ app.get('/', function(request, response){
 
  io.on('connection', function(socket){
     socket.on('chat message', function(msg){
-      console.log('message: ' + msg);
+      socket.emit('chat message', msg);
   });
     socket.on('disconnect', function(){
       console.log('user disconnected');
