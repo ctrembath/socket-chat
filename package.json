@@ -22,5 +22,13 @@
   "dependencies": {
     "casperjs": "^1.1.0-beta3",
     "express": "^4.10.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctrembath/socket-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ctrembath/socket-chat/issues"
+  },
+  "homepage": "https://github.com/ctrembath/socket-chat"
 }
