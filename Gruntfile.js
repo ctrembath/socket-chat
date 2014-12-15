@@ -6,7 +6,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     jshint: {
-      files: ['server.js', 'Gruntfile.js', 'index.ejs', 'socketController.js'],
+      files: ['server.js', 'Gruntfile.js', 'index.html'],
       options: {
         // options here to override JSHint defaults
         globals: {
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
       }
     },
    watch: {
-      files: ['server.js', 'Gruntfile.js', 'index.ejs', '../src/socketController.js'],
+      files: ['server.js', 'Gruntfile.js', 'index.html'],
       tasks: ['jshint']
     }
   });
